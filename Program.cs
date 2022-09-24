@@ -16,8 +16,7 @@
         {
             while(isRunning)
             {
-                user.GetInput();
-                bot.Respond();
+                if (user.DidGetInput()) { bot.Respond(); }
             }
         }
 

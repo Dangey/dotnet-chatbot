@@ -15,6 +15,7 @@ namespace ConsoleApp
         public const string greeting = "Hello there! This is a chatbot - send a message and it'll respond.";
         public const ConsoleColor userTextColor = ConsoleColor.DarkGray;
         public const ConsoleColor chatbotTextColor = ConsoleColor.Yellow;
+        public const ConsoleColor errorTextColor = ConsoleColor.Red;
         public const string exitMessage = "\nExiting...\n";
         public const string userInputTag = "YOU: > ";
     }
